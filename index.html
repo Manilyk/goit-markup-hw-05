@@ -344,7 +344,54 @@ marketing & growth solutions.</p>
    </footer>
 
 <div class="backdrop">
-    <div class="modal"></div>
+    <div class="modal">
+        <button type="button" class="modal-close">X</button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+
+         <div class="modal-input-box">
+                <label class="modal-label">Name
+                    <span class="modal-wrap">
+                        <input class="modal-input" type="text" name="name" required>
+                        <svg class="modal-icon" width="12px" height="12px">
+                            <use href="./images/icons.svg#icon-ico-modal-1"></use>
+                        </svg>
+                    </span>
+                
+                </label>
+    
+                <label class="modal-label">Phone
+                    <span class="modal-wrap">
+                        <input class="modal-input" type="tel" name="tel" required>
+                        <svg class="modal-icon" width="13px" height="13px">
+                            <use href="./images/icons.svg#icon-ico-modal-2"></use>
+                        </svg>
+                    </span>
+    
+                </label>
+    
+                <label class="modal-label">Email
+                    <span class="modal-wrap">
+                        <input class="modal-input" type="email" name="email" required>
+                        <svg class="modal-icon" width="15px" height="12px">
+                            <use href="./images/icons.svg#icon-ico-modal-3"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-label">Comment
+                    <textarea class="modal-textarea" name="user-comment" placeholder="Text input"></textarea>
+                </label>
+    <label class="modal-checkbox">
+        <input class="modal-checkbox-input" type="checkbox" name="checkbox" required>
+        <span class="modal-checkbox-custom"></span>
+        I accept the terms and conditions of the Privacy Policy
+    </label>
+    
+         </div>
+            <button type="submit" class="modal-btn">Send</button>
+        </form>
+
+    </div>
 </div>
 
 </body>
